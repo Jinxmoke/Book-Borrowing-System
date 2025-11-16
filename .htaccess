@@ -1,0 +1,17 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Set the base directory to the "peso" folder (adjust if needed)
+RewriteBase /e-book/
+
+# Remove .php extension from URLs (support subfolders)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z0-9-_\/]+)/?$ $1.php [L]
+
+# Disable directory listing (optional)
+Options -Indexes
+
+# Custom error pages (ensure these exist in /peso/)
+ErrorDocument 404 /e-book/404.html
+ErrorDocument 500 /e-book/500.html

@@ -1,0 +1,5 @@
+[13-Dec-2024 08:46:40 UTC] PHP Warning:  require(C:\xampp\htdocs\e-book\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/privacy_policy.php on line 2
+[13-Dec-2024 08:46:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\e-book\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/privacy_policy.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/privacy_policy.php on line 2

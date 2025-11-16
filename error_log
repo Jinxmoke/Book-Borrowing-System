@@ -1,0 +1,57 @@
+[13-Dec-2024 08:46:40 UTC] PHP Warning:  require(C:\xampp\htdocs\e-book\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/privacy_policy.php on line 2
+[13-Dec-2024 08:46:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\e-book\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/privacy_policy.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/privacy_policy.php on line 2
+[15-Dec-2024 05:02:46 UTC] PHP Parse error:  Unclosed '{' on line 61 in /home/oubomnof/public_html/e-book/register_form.php on line 571
+[15-Dec-2024 05:02:48 UTC] PHP Parse error:  Unclosed '{' on line 61 in /home/oubomnof/public_html/e-book/register_form.php on line 571
+[15-Dec-2024 05:02:49 UTC] PHP Parse error:  Unclosed '{' on line 61 in /home/oubomnof/public_html/e-book/register_form.php on line 571
+[15-Dec-2024 05:02:49 UTC] PHP Parse error:  Unclosed '{' on line 61 in /home/oubomnof/public_html/e-book/register_form.php on line 571
+[15-Dec-2024 05:02:49 UTC] PHP Parse error:  Unclosed '{' on line 61 in /home/oubomnof/public_html/e-book/register_form.php on line 571
+[15-Dec-2024 05:03:09 UTC] PHP Parse error:  Unclosed '{' on line 13 in /home/oubomnof/public_html/e-book/register_form.php on line 572
+[15-Dec-2024 05:03:12 UTC] PHP Parse error:  Unclosed '{' on line 13 in /home/oubomnof/public_html/e-book/register_form.php on line 572
+[15-Dec-2024 05:13:13 UTC] PHP Parse error:  syntax error, unexpected identifier "en" in /home/oubomnof/public_html/e-book/register_form.php on line 47
+[15-Dec-2024 05:13:32 UTC] PHP Parse error:  syntax error, unexpected identifier "container" in /home/oubomnof/public_html/e-book/register_form.php on line 88
+[15-Dec-2024 05:35:30 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:35:34 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:35:39 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:35:55 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:36:09 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:36:30 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:36:52 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:36:57 UTC] PHP Fatal error:  Uncaught Error: Class "Bcrypt\Bcrypt" not found in /home/oubomnof/public_html/e-book/login_form.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/login_form.php on line 24
+[15-Dec-2024 05:59:47 UTC] PHP Parse error:  Unmatched '}' in /home/oubomnof/public_html/e-book/login_form.php on line 84
+[15-Dec-2024 05:59:48 UTC] PHP Parse error:  Unmatched '}' in /home/oubomnof/public_html/e-book/login_form.php on line 84
+[15-Dec-2024 06:00:49 UTC] PHP Parse error:  Unmatched '}' in /home/oubomnof/public_html/e-book/login_form.php on line 84
+[15-Dec-2024 06:00:51 UTC] PHP Parse error:  Unmatched '}' in /home/oubomnof/public_html/e-book/login_form.php on line 84
+[15-Dec-2024 06:02:33 UTC] PHP Warning:  Undefined variable $hashed_pass in /home/oubomnof/public_html/e-book/login_form.php on line 37
+[15-Dec-2024 06:02:33 UTC] PHP Warning:  Undefined variable $hashed_pass in /home/oubomnof/public_html/e-book/login_form.php on line 39
+[15-Dec-2024 06:03:18 UTC] PHP Warning:  Undefined variable $hashed_pass in /home/oubomnof/public_html/e-book/register_form.php on line 139
+[15-Dec-2024 06:03:45 UTC] PHP Warning:  Undefined variable $hashed_pass in /home/oubomnof/public_html/e-book/login_form.php on line 37
+[15-Dec-2024 06:03:45 UTC] PHP Warning:  Undefined variable $hashed_pass in /home/oubomnof/public_html/e-book/login_form.php on line 39
+[15-Dec-2024 06:18:46 UTC] Current password before update: 8ef1f27ff72fa0f029ca95b743af47e2
+[15-Dec-2024 06:18:46 UTC] Password after verification: 4297f44b13955235245b2497399d7a93

@@ -1,0 +1,503 @@
+			/* Admin Dashboard */
+			.dashboard-container {
+	        max-width: 1200px;
+	        margin: auto;
+	        margin-bottom: 200px;
+	        padding: 2rem;
+	    }
+
+	    .dashboard-overview-title {
+	        font-size: 1.5rem;
+	        font-weight: 600;
+	        margin-bottom: 1.5rem;
+	        color: #2c3e50;
+	    }
+
+	    .dashboard-metrics-grid {
+	        display: grid;
+	        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+	        gap: 1.5rem;
+	        margin-bottom: 2rem;
+	    }
+
+	    .dashboard-metric-card {
+	        background: white;
+	        border-radius: 12px;
+	        padding: 1.5rem;
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	        display: flex;
+	        flex-direction: column;
+	        transition: transform 0.2s ease;
+	    }
+
+	    .dashboard-metric-card:hover {
+	        transform: translateY(-4px);
+	    }
+
+	    .dashboard-metric-card.total-books { background-color: #A7C7E7; }
+	    .dashboard-metric-card.borrowed { background-color: #FFB366; }
+	    .dashboard-metric-card.returned { background-color: #98D8BF; }
+	    .dashboard-metric-card.members { background-color: #98D8BF; }
+	    .dashboard-metric-card.not-returned { background-color: #FF9999; }
+
+	    .dashboard-metric-header {
+	        display: flex;
+	        justify-content: space-between;
+	        align-items: center;
+	        margin-bottom: 1rem;
+	    }
+
+	    .dashboard-metric-title {
+	        font-size: 0.875rem;
+	        font-weight: 600;
+	        text-transform: uppercase;
+	        color: rgba(0, 0, 0, 0.7);
+	    }
+
+	    .dashboard-metric-icon {
+	        width: 2.5rem;
+	        height: 2.5rem;
+	        display: flex;
+	        align-items: center;
+	        justify-content: center;
+	        background: rgba(255, 255, 255, 0.3);
+	        border-radius: 8px;
+	    }
+
+	    .dashboard-metric-value {
+	        font-size: 2.5rem;
+	        font-weight: 700;
+	        margin: 0.5rem 0;
+	    }
+
+	    .dashboard-metric-link {
+	        margin-top: auto;
+	        text-decoration: none;
+	        color: rgba(0, 0, 0, 0.7);
+	        font-size: 0.875rem;
+	        display: inline-flex;
+	        align-items: center;
+	        transition: color 0.2s ease;
+	    }
+
+	    .dashboard-metric-link:hover {
+	        color: rgba(0, 0, 0, 0.9);
+	    }
+
+	    .dashboard-metric-link i {
+	        margin-left: 0.5rem;
+	        font-size: 0.75rem;
+	    }
+
+	    @media (max-width: 768px) {
+	        .dashboard-container {
+	            padding: 1rem;
+	        }
+
+	        .dashboard-metrics-grid {
+	            grid-template-columns: 1fr;
+	            gap: 1rem;
+	        }
+
+	        .dashboard-metric-value {
+	            font-size: 2rem;
+	        }
+	    }
+
+	    .dashboard-table-container {
+	        margin-top: 2rem;
+	        background: white;
+	        border-radius: 12px;
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	        overflow: hidden;
+	    }
+
+	    .dashboard-table-title {
+	        font-size: 1.25rem;
+	        font-weight: 600;
+	        padding: 1.5rem;
+	        background-color: #A7C7E7;
+	        color: #2c3e50;
+	    }
+
+	    .dashboard-responsive-table {
+	        width: 100%;
+	        border-collapse: collapse;
+	    }
+
+	    .dashboard-responsive-table th,
+	    .dashboard-responsive-table td {
+	        padding: 1rem;
+	        text-align: left;
+	        border-bottom: 1px solid #e2e8f0;
+	    }
+
+	    .dashboard-responsive-table th {
+	        background-color: #f8f9fa;
+	        font-weight: 600;
+	        color: #2c3e50;
+	    }
+
+	    .dashboard-responsive-table tr:hover {
+	        background-color: #f8f9fa;
+	    }
+
+	    @media (max-width: 768px) {
+	        .dashboard-responsive-table {
+	            display: block;
+	            overflow-x: auto;
+	            white-space: nowrap;
+	        }
+	    }
+
+	    .dashboard-status-badge {
+	        padding: 0.25rem 0.75rem;
+	        border-radius: 999px;
+	        font-size: 0.875rem;
+	        font-weight: 500;
+	    }
+
+	    .dashboard-status-borrowed {
+	        background-color: #FFB366;
+	        color: #000;
+	    }
+	    .overdue-notification {
+	        background-color: white;
+	        color: white;
+	        padding: 5px 10px;
+	        border-radius: 8px;
+	        display: flex;
+	        align-items: center;
+	        justify-content: space-between;
+	        margin-bottom: 20px;
+	        position: relative;
+	        width: 214px;
+	    }
+
+	    .overdue-text {
+	        font-size: 20px;
+	        font-weight: bold;
+	        color: black;
+	    }
+
+	    .bell-container {
+	        position: relative;
+	    }
+
+	    .bell {
+	        color: #ff0000;
+	        font-size: 32px;
+	        animation: bell-shake 2s infinite;
+	    }
+	    .notifications-badge {
+	        position: absolute;
+	        top: -8px;
+	        right: -8px;
+	        background-color: #820000;
+	        color: white;
+	        width: 20px;
+	        height: 20px;
+	        border-radius: 50%;
+	        display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        font-size: 12px;
+	        font-weight: bold;
+	    }
+	    .header-container {
+	        display: flex;
+	        justify-content: space-between;
+	        align-items: center;
+	        margin-bottom: 1.5rem;
+	    }
+
+	        .overdue-dropdown {
+	            position: absolute;
+	            top: 100%;
+	            right: 0;
+	            width: 350px;
+	            background-color: white;
+	            border-radius: 8px;
+	            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	            margin-top: 10px;
+	            display: none;
+	            z-index: 1000;
+	        }
+
+	        .overdue-dropdown.show {
+	            display: block;
+	        }
+
+	        .overdue-dropdown-header {
+	            padding: 15px;
+	            background-color: #b71c1c;
+	            color: white;
+	            border-radius: 8px 8px 0 0;
+	            font-weight: bold;
+	        }
+
+	        .overdue-dropdown-content {
+	            max-height: 300px;
+	            overflow-y: auto;
+	        }
+
+	        .overdue-item {
+	            padding: 15px;
+	            border-bottom: 1px solid #eee;
+	        }
+
+	        .overdue-item:last-child {
+	            border-bottom: none;
+	        }
+
+	        .overdue-item-title {
+	            font-weight: bold;
+	            color: #333;
+	            margin-bottom: 5px;
+	        }
+
+	        .overdue-item-info {
+	            font-size: 0.9em;
+	            color: #666;
+	        }
+
+	        .overdue-item-date {
+	            color: #b71c1c;
+	            font-weight: bold;
+	            margin-top: 5px;
+	        }
+	    @keyframes bell-shake {
+	        0% { transform: rotate(0); }
+	        5% { transform: rotate(25deg); }
+	        10% { transform: rotate(-20deg); }
+	        15% { transform: rotate(15deg); }
+	        20% { transform: rotate(-10deg); }
+	        25% { transform: rotate(5deg); }
+	        30% { transform: rotate(0); }
+	        100% { transform: rotate(0); }
+	    }
+
+/* Admin Catalog */
+.container {
+		max-width: 1200px;
+		margin: 20px auto;
+		padding: 20px;
+}
+
+h1 {
+		text-align: center;
+		margin-bottom: 20px;
+}
+
+.book-grid {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+}
+
+.book-card {
+		background-color: #fff;
+		border-radius: 8px;
+		padding: 20px;
+		display: flex;
+		gap: 20px;
+}
+
+.cover-container img {
+		width: 180px;
+		height: 285px;
+		border-radius: 10px;
+		box-shadow: 0 6px 6px rgba(119, 119, 119, 0.75);
+}
+
+.book-details {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+}
+
+.book-title {
+		font-size: 18px;
+		font-weight: bold;
+		color: #333333;
+		margin-bottom: 10px;
+}
+
+.book-details p {
+		margin: 5px 0;
+		color: #666666;
+}
+
+.description {
+		margin-top: 10px;
+		color: #888888;
+		font-size: 0.9rem;
+		display: -webkit-box;
+		-webkit-line-clamp: 4;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
+
+.description-label {
+		font-weight: 600;
+		color: black;
+		margin-bottom: 5px;
+}
+
+.button-group {
+		display: flex;
+		gap: 10px;
+		margin-top: 10px;
+}
+
+.buttondelete:hover, .buttonupdate:hover {
+		transform: scale(1.1);
+}
+
+.buttondelete, .buttonupdate {
+		padding: 8px 16px;
+		border: none;
+		color: white;
+		border-radius: 4px;
+		cursor: pointer;
+		font-size: 14px;
+		text-transform: uppercase;
+		transition: background-color 0.2s, transform 0.3s ease;
+}
+
+.buttondelete {
+		background-color: #DE3F44;
+}
+
+.buttonupdate {
+		background-color: #02A95C;
+}
+
+.book__details {
+		font-size: 0.9rem;
+		margin-top: -10px;
+		text-transform: capitalize;
+		color: #888888;
+}
+
+.insert_book {
+		font-size: 13px;
+		width: 110px;
+		border-radius: 5px;
+		border: none;
+		background-color: #02A95C;
+		color: white;
+		height: 44px;
+		transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.insert_book:hover {
+		transform: scale(1.1);
+		background-color: #029f54;
+}
+
+.filter-container {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-bottom: 20px;
+}
+
+.filter-container select {
+    margin-right: 10px;
+    padding: 9px;
+    background-color: transparent;
+    border: 2px solid #02A95C;
+    border-radius: 5px;
+    color: #02A95C;
+}
+
+.pagination {
+		display: flex;
+		justify-content: center;
+		margin-top: 20px;
+}
+
+.pagination button {
+		margin: 0 5px;
+		padding: 5px 10px;
+		border: none;
+		background-color: #02A95C;
+		color: white;
+		cursor: pointer;
+		border-radius: 5px;
+}
+
+.pagination button:disabled {
+		background-color: #ccc;
+		cursor: not-allowed;
+}
+
+/* Modal styles */
+.lender-modal {
+		display: none;
+		position: fixed;
+		z-index: 1;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+		background-color: rgba(0,0,0,0.4);
+}
+
+.lender-modal-content {
+		background-color: #fefefe;
+		margin: 15% auto;
+		padding: 20px;
+		border: 1px solid #888;
+		width: 80%;
+		max-width: 500px;
+}
+
+.lender-close {
+		color: #aaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+		cursor: pointer;
+}
+
+.lender-close:hover,
+.lender-close:focus {
+		color: black;
+		text-decoration: none;
+		cursor: pointer;
+}
+
+.lender-form-group {
+		margin-bottom: 15px;
+}
+
+.lender-form-group label {
+		display: block;
+		margin-bottom: 5px;
+}
+
+.lender-form-group input,
+.lender-form-group select,
+.lender-form-group textarea {
+		width: 100%;
+		padding: 8px;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+}
+
+.lender-submit-button {
+		background-color: #02A95C;
+		color: white;
+		padding: 10px 15px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+}
+
+.lender-submit-button:hover {
+		background-color: #029f54;
+}

@@ -1,0 +1,288 @@
+[12-Dec-2024 16:34:02 UTC] PHP Warning:  require(C:/xampp/htdocs/e-book/vendor/phpmailer/phpmailer/src/Exception.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/send_reminder.php on line 6
+[12-Dec-2024 16:34:02 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/xampp/htdocs/e-book/vendor/phpmailer/phpmailer/src/Exception.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/send_reminder.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/send_reminder.php on line 6
+[12-Dec-2024 18:46:59 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/library/admin/admin_processDelete.php on line 14
+[13-Dec-2024 12:55:04 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 12:55:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:29 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:35 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:40 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:51:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:43 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:52 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:55 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:57 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:52:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:55:05 UTC] PHP Warning:  require(..\fpdf\fpdf.php): Failed to open stream: No such file or directory in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 13:55:05 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '..\fpdf\fpdf.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 4
+[13-Dec-2024 14:14:15 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/library/admin/admin_processDelete.php on line 14
+[13-Dec-2024 14:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/library/admin/admin_returnedBooksForm.php on line 108
+[13-Dec-2024 15:28:45 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:28:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:29:36 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:30:03 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:30:18 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:31:41 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 15:31:52 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 16:49:33 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/oubomnof/public_html/library/admin/admin_changeUser.php on line 22
+[13-Dec-2024 21:09:09 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
+[14-Dec-2024 12:14:23 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
+[14-Dec-2024 12:14:36 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
+[14-Dec-2024 12:15:04 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
+[15-Dec-2024 14:16:36 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
+[20-Dec-2024 06:14:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:14:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:15:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 06:16:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/overdue_notifications.php on line 37
+[20-Dec-2024 18:43:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 26
+[20-Dec-2024 18:49:58 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:49:58 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:49:58 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:49:58 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:14 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:14 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:17 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:17 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:21 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:21 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:49 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:49 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:51 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:51 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:52 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:52 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:53 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:53 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:54 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:50:54 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:12 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:12 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:12 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:12 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:15 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:15 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:15 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 18:51:15 UTC] PHP Warning:  Undefined array key "author" in /home/oubomnof/public_html/e-book/admin/admin_borrowedForm.php on line 434
+[20-Dec-2024 19:13:36 UTC] Received data: Array
+(
+    [bookId] => 315
+    [borrowerEmail] => michaeljamesochea12@gmail.com
+    [borrowerName] => Michael Ochea
+    [bookTitle] => Soaring 21st Mathematics
+    [dueDate] => 2024-12-18
+)
+
+[20-Dec-2024 19:13:45 UTC] Received data: 
+[21-Dec-2024 06:49:48 UTC] PHP Warning:  Undefined array key "status_id" in /home/oubomnof/public_html/e-book/admin/admin_processDelete.php on line 14
